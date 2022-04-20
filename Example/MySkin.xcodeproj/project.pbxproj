@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		168F321BA321B670198FDEC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		18A36040A32E6D66D31FF77A /* MySkin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MySkin.podspec; path = ../MySkin.podspec; sourceTree = "<group>"; };
+		168F321BA321B670198FDEC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		18A36040A32E6D66D31FF77A /* MySkin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MySkin.podspec; path = ../MySkin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5379B99B23A0FC56431CCD1C /* Pods_MySkin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySkin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MySkin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySkin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		763183702757FB6154AAF71D /* Pods-MySkin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySkin_Example.release.xcconfig"; path = "Target Support Files/Pods-MySkin_Example/Pods-MySkin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9FD41795EDFACC4F2DCD3B8E /* Pods_MySkin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySkin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A72631B595EA964C133271C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A72631B595EA964C133271C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B430F1532E5974E07E37BC9F /* Pods-MySkin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySkin_Example.debug.xcconfig"; path = "Target Support Files/Pods-MySkin_Example/Pods-MySkin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B61831ED3DA0A382E7FD681C /* Pods-MySkin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySkin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MySkin_Tests/Pods-MySkin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF022B09292809348D81862B /* Pods-MySkin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySkin_Tests.release.xcconfig"; path = "Target Support Files/Pods-MySkin_Tests/Pods-MySkin_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				B61831ED3DA0A382E7FD681C /* Pods-MySkin_Tests.debug.xcconfig */,
 				FF022B09292809348D81862B /* Pods-MySkin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

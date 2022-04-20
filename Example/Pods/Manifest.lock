@@ -1,0 +1,16 @@
+PODS:
+  - MySkin (0.1.0)
+
+DEPENDENCIES:
+  - MySkin (from `../`)
+
+EXTERNAL SOURCES:
+  MySkin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MySkin: 92caa89e15c52704042e7d79c64fe5dc179d7f73
+
+PODFILE CHECKSUM: 66e6a61e7dde62e5d648f65176b4590406496f62
+
+COCOAPODS: 1.10.0

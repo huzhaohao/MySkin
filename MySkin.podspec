@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MySkin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MySkin.'
+  s.summary          = '颜色切换管理器实现.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1961831567@qq.com/MySkin'
+  s.homepage         = 'https://github.com/huzhaohao/MySkin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1961831567@qq.com' => '1009681836@qq.com' }
-  s.source           = { :git => 'https://github.com/1961831567@qq.com/MySkin.git', :tag => s.version.to_s }
+  s.author           = { 'huzhaohao' => '1009681836@qq.com' }
+  s.source           = { :git => 'https://github.com/huzhaohao/MySkin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
